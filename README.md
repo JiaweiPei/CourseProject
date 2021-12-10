@@ -19,7 +19,11 @@ For this project, we constructed a static website to present our recommendation 
 
 The website generated through index.php allows users to enter three inputs, including **Username** (User number [1, 610]), **Movie Genre** (e.g., Comedy, Drama, Romance, Horror, Sci-Fi, etc. Capitalized), and **Number of Recommended Movies** ([1,20]).
 
+![pic2](https://github.com/JiaweiPei/CourseProject/blob/main/ReadMe_Pic2.png)
+
 After putting a group of input (e.g., 10, Comedy, 5), the user will get a result similar to the following picture, which provides five comedy movie recommendations for user #10.
+
+![pic3](https://github.com/JiaweiPei/CourseProject/blob/main/ReadMe_Pic3.png)
 
 ### **Recommender (recommender_system.ipynb)**
 
