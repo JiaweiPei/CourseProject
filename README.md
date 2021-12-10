@@ -31,11 +31,23 @@ The project implements collaborative filtering using the programming language of
 
 **I.** Import the csv dataset of movie ratings from 610 users and transform it into a matrix that contains **9724 rows**, each representing a movie, and **610 columns**, each representing a user. Since each user will not rate every movie, most values in this matrix are presented as N/A. We calculated the **sparsity**, or the percentage of N/A values, of the matrix, being 98.32% and replaced N/A values with zero.
 
+![pic4](https://github.com/JiaweiPei/CourseProject/blob/main/ReadMe_Pic4.png)
+
 **II.** Assuming 10 features, we initialize movie parameters and user parameters using the numpy.random.randint function and get the index of non-zero values. We also defined a function named rmse here to calculate the **Root Mean Square Error (RMSE)** using the function attached below.  
+
+![pic5](https://github.com/JiaweiPei/CourseProject/blob/main/ReadMe_Pic5.png)
+![pic6](https://github.com/JiaweiPei/CourseProject/blob/main/ReadMe_Pic6.png)
 
 **III.** Update parameters using the **Gradient Descent Algorithm** to **minimize** the RMSE values. This part of the code updates the predictions 100 times while keeping track of the RMSE values in the list named *rmse_ls*. Drawing out a graph of the changing of RMSE values as the number of epochs increases, we find the training is actually decreasing the RMSE values. 
 
+![pic7](https://github.com/JiaweiPei/CourseProject/blob/main/ReadMe_Pic7.png)
+![pic8](https://github.com/JiaweiPei/CourseProject/blob/main/ReadMe_Pic8.png)
+
 **IV.** Make predictions using the trained parameters and reshape the dataset as each user corresponds to a list of movieIds of recommended movies (the top 20 with the best-predicted ratings). Then reshape the dataset as a matrix of **610 rows (users) 21 columns (20 movieIds of the recommended movie for each user)** as the final output.  
+
+![pic9](https://github.com/JiaweiPei/CourseProject/blob/main/ReadMe_Pic9.png)
+
+![pic10](https://github.com/JiaweiPei/CourseProject/blob/main/ReadMe_Pic10.png)
 
 ## **Usage**
 
