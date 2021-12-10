@@ -13,12 +13,7 @@ The project is a movie recommendation system based on the free topic theme optio
 
 For this project, we constructed a static website to present our recommendation system. We choose to use the MySQL Database server instead of a local database. Therefore, we made a connection to the MySQL server in the `dbh.php` file: 
 
-    $dbServerName = "cs410-project.cpzyc87uemgs.us-east-2.rds.amazonaws.com";
-    $dbUserName = "admin";
-    $dbPassword = "qwerty12";
-    $dbName = "Movie_Info";
-
-    $conn = new mysqli($dbServerName, $dbUserName, $dbPassword, $dbName);
+![pic1](https://github.com/JiaweiPei/CourseProject/blob/main/ReadMe_Pic1.png)
 
 ### **Frontend Interface (index.php)**
 
