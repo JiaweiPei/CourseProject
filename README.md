@@ -25,7 +25,7 @@ After putting a group of input (e.g., 10, Comedy, 5), the user will get a result
 
 ![pic3](https://github.com/JiaweiPei/CourseProject/blob/main/ReadMe_Pic3.png)
 
-### **Recommender (recommender_system.ipynb)**
+### **Recommender (`recommender_system.ipynb`)**
 
 The project implements collaborative filtering using the programming language of python in Jupyter Notebook to achieve the goal of recommendation. The implementation of recommender could be divided into the following steps:
 
